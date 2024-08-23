@@ -1,0 +1,38 @@
+/* src/pages/Home.css */
+.home {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .home input {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .home ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .home li {
+    margin-bottom: 10px;
+  }
+  
+  .home a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+  }
+  
+  .home a:hover {
+    text-decoration: underline;
+  }
+  

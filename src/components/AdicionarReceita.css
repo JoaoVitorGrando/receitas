@@ -1,0 +1,59 @@
+/* src/AdicionarReceita.css */
+
+.adicionar-receita {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.adicionar-receita h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.adicionar-receita form {
+  display: flex;
+  flex-direction: column;
+}
+
+.adicionar-receita div {
+  margin-bottom: 15px;
+}
+
+.adicionar-receita label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.adicionar-receita input,
+.adicionar-receita textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.adicionar-receita textarea {
+  height: 150px;
+}
+
+.adicionar-receita button.submit-button {
+  background-color: #4CAF50; /* Verde */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.adicionar-receita button.submit-button:hover {
+  background-color: #45a049; /* Verde escuro */
+}
+
+.adicionar-receita .error {
+  color: red;
+}
+
+.adicionar-receita .success {
+  color: green;
+}
